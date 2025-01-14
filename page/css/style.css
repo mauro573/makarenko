@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+header h1{
+    color: #000;
+    font-size: 35px;
+    font-family: Calibri, sans-serif;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial;
+    padding: 18px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid #007dfe;
+}
+
+.btn button{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 550;
+    background-color: #007dfe;
+    color: #fff;
+}
+/*FIM NAVEGACAO*/
+
+/*TOPO SITE*/
+section.topo-site{
+    background-image: url(./assets/img/slider-right-dec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.topo-site .txt-topo{
+    text-align: justify;
+    margin-top: 23%;
+    padding: 5%;
+}
+
+.topo-site .txt-topo h2{
+    font-family: Calibri,Sans-serif,Arial;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+.topo-site .txt-topo h3{
+    font-size: 22px;
+    font-family: Arial;
+    color: #007dfe;
+    padding: 2%;
+}
+
+.topo-site .txt-topo p{
+    font-size: 16px;
+    text-align: justify;
+    font-family: Calibri,sans-serif;
+}
+
+.topo-site .txt-topo .botoes{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    gap: 2em;
+}
+
+.botoes .btn-topo button{
+    width: 100%;
+    border: none;
+    border-radius: 28px;
+    padding: 12px;
+    background-color: #007dfe;
+    color: #fff;
+    font-size: 15px;
+    font-family: Calibri, Arial;
+    font-weight: 600;
+}
+
+.botoes .btn-topo button:hover{
+   
+}
+
+ img{
+    margin-top: 10%;
+    max-width: 85%;
+}
